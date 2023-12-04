@@ -26,7 +26,7 @@ export default function DateModal() {
         className="date-picker-button"
         onClick={() => setOpen((open) => !open)}
       >
-        {isOpen == false ? "Select date" : format(date, "MM do yyyy")}
+        {isOpen == false ? "Select a date" : format(date, "MM do yyyy")}
       </button>
 
       {isOpen ? (
